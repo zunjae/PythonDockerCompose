@@ -6,5 +6,5 @@ services:
     build:
       context: ProjectName
       dockerfile: Dockerfile
-    restart: "no"
+    restart: "no" # https://docs.docker.com/compose/compose-file/#restart
     env_file: .env
