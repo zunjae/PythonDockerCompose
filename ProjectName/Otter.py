@@ -1,4 +1,7 @@
 import requests
+import os
 
-r = requests.get("https://google.com")
-assert r.status_code == 1337
+r = requests.get(os.getenv("Site"))
+assert r.status_code == 200
+
+assert 1 == 2
