@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 COPY . /Project
 
 # run the project
-CMD [TODO//FILL//THIS]
+CMD ["python", "Otter.py"]
