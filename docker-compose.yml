@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  api:
+    build:
+      context: ProjectName
+      dockerfile: Dockerfile
+    restart: always
+    env_file: .env
