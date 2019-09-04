@@ -6,5 +6,5 @@ services:
     build:
       context: ProjectName
       dockerfile: Dockerfile
-    restart: always
+    restart: "no"
     env_file: .env
