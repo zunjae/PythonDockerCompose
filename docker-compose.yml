@@ -4,7 +4,7 @@ services:
 
   my_cool_project_name_pls_edit:
     build:
-      context: ProjectName
+      context: ProjectFolder
       dockerfile: Dockerfile
     restart: "no" # https://docs.docker.com/compose/compose-file/#restart
     env_file: .env
